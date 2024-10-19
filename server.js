@@ -36,6 +36,8 @@ contactEmail.verify((error) => {
 
 app.get("/",(req,res)=>{
   console.log("hello")
+  re.send("hello"
+          
 })
 // Endpoint to handle contact form submissions
 app.post("/contact", (req, res) => {
